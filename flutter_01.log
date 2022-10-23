@@ -1,0 +1,114 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter --quiet assemble --depfile /Users/berkbirkan/Desktop/OfflineDocumentation/smmmobile-edit-emre 5/build/app/intermediates/flutter/debug/flutter_build.d --output /Users/berkbirkan/Desktop/OfflineDocumentation/smmmobile-edit-emre 5/build/app/intermediates/flutter/debug -dTargetFile=/Users/berkbirkan/Desktop/OfflineDocumentation/smmmobile-edit-emre 5/lib/main.dart -dTargetPlatform=android -dBuildMode=debug -dTrackWidgetCreation=true --DartDefines=flutter.inspector.structuredErrors%3Dtrue debug_android_application
+
+## exception
+
+FileSystemException: FileSystemException: writeFrom failed, path = '/Users/berkbirkan/Desktop/OfflineDocumentation/smmmobile-edit-emre 5/build/app/intermediates/flutter/debug/.last_build_id' (OS Error: No space left on device, errno = 28)
+
+```
+#0      _RandomAccessFile.writeFromSync (dart:io/file_impl.dart:870:7)
+#1      _File.writeAsBytesSync (dart:io/file_impl.dart:606:14)
+#2      _File.writeAsStringSync (dart:io/file_impl.dart:628:5)
+#3      ForwardingFile.writeAsStringSync (package:file/src/forwarding/forwarding_file.dart:154:16)
+#4      ErrorHandlingFile.writeAsStringSync.<anonymous closure> (package:flutter_tools/src/base/error_handling_file_system.dart:186:22)
+#5      _runSync (package:flutter_tools/src/base/error_handling_file_system.dart:362:14)
+#6      ErrorHandlingFile.writeAsStringSync (package:flutter_tools/src/base/error_handling_file_system.dart:185:5)
+#7      FlutterBuildSystem.trackSharedBuildDirectory (package:flutter_tools/src/build_system/build_system.dart:673:23)
+#8      FlutterBuildSystem.build (package:flutter_tools/src/build_system/build_system.dart:590:5)
+#9      _rootRunUnary (dart:async/zone.dart:1198:47)
+#10     _CustomZone.runUnary (dart:async/zone.dart:1100:19)
+#11     _FutureListener.handleValue (dart:async/future_impl.dart:143:18)
+#12     Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:696:45)
+#13     Future._propagateToListeners (dart:async/future_impl.dart:725:32)
+#14     Future._completeWithValue (dart:async/future_impl.dart:529:5)
+#15     _AsyncAwaitCompleter.complete (dart:async-patch/async_patch.dart:40:15)
+#16     _completeOnAsyncReturn (dart:async-patch/async_patch.dart:311:13)
+#17     _BuildInstance.invokeTarget (package:flutter_tools/src/build_system/build_system.dart)
+#18     _rootRunUnary (dart:async/zone.dart:1198:47)
+#19     _CustomZone.runUnary (dart:async/zone.dart:1100:19)
+#20     _FutureListener.handleValue (dart:async/future_impl.dart:143:18)
+#21     Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:696:45)
+#22     Future._propagateToListeners (dart:async/future_impl.dart:725:32)
+#23     Future._completeWithValue (dart:async/future_impl.dart:529:5)
+#24     Future.wait.<anonymous closure> (dart:async/future.dart:414:23)
+#25     _rootRunUnary (dart:async/zone.dart:1198:47)
+#26     _CustomZone.runUnary (dart:async/zone.dart:1100:19)
+#27     _FutureListener.handleValue (dart:async/future_impl.dart:143:18)
+#28     Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:696:45)
+#29     Future._propagateToListeners (dart:async/future_impl.dart:725:32)
+#30     Future._completeWithValue (dart:async/future_impl.dart:529:5)
+#31     _AsyncAwaitCompleter.complete (dart:async-patch/async_patch.dart:40:15)
+#32     _completeOnAsyncReturn (dart:async-patch/async_patch.dart:311:13)
+#33     _BuildInstance._invokeInternal (package:flutter_tools/src/build_system/build_system.dart)
+#34     _asyncErrorWrapperHelper.errorCallback (dart:async-patch/async_patch.dart:91:64)
+#35     _rootRunBinary (dart:async/zone.dart:1214:47)
+#36     _CustomZone.runBinary (dart:async/zone.dart:1107:19)
+#37     _FutureListener.handleError (dart:async/future_impl.dart:157:20)
+#38     Future._propagateToListeners.handleError (dart:async/future_impl.dart:708:47)
+#39     Future._propagateToListeners (dart:async/future_impl.dart:729:24)
+#40     Future._completeError (dart:async/future_impl.dart:537:5)
+#41     _AsyncAwaitCompleter.completeError (dart:async-patch/async_patch.dart:47:15)
+#42     KernelSnapshot.build (package:flutter_tools/src/build_system/targets/common.dart)
+#43     _rootRunUnary (dart:async/zone.dart:1198:47)
+#44     _CustomZone.runUnary (dart:async/zone.dart:1100:19)
+#45     _FutureListener.handleValue (dart:async/future_impl.dart:143:18)
+#46     Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:696:45)
+#47     Future._propagateToListeners (dart:async/future_impl.dart:725:32)
+#48     Future._completeWithValue (dart:async/future_impl.dart:529:5)
+#49     _AsyncAwaitCompleter.complete (dart:async-patch/async_patch.dart:40:15)
+#50     _completeOnAsyncReturn (dart:async-patch/async_patch.dart:311:13)
+#51     KernelCompiler.compile (package:flutter_tools/src/compile.dart)
+#52     _rootRunUnary (dart:async/zone.dart:1198:47)
+#53     _CustomZone.runUnary (dart:async/zone.dart:1100:19)
+#54     _FutureListener.handleValue (dart:async/future_impl.dart:143:18)
+#55     Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:696:45)
+#56     Future._propagateToListeners (dart:async/future_impl.dart:725:32)
+#57     Future._completeWithValue (dart:async/future_impl.dart:529:5)
+#58     Future._asyncCompleteWithValue.<anonymous closure> (dart:async/future_impl.dart:567:7)
+#59     _rootRun (dart:async/zone.dart:1190:13)
+#60     _CustomZone.run (dart:async/zone.dart:1093:19)
+#61     _CustomZone.runGuarded (dart:async/zone.dart:997:7)
+#62     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1037:23)
+#63     _microtaskLoop (dart:async/schedule_microtask.dart:41:21)
+#64     _startMicrotaskLoop (dart:async/schedule_microtask.dart:50:5)
+#65     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:118:13)
+#66     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:169:5)
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel master, 1.22.0-2.0.pre.59, on Mac OS X 10.15.7 19H2, locale tr-TR)
+    • Flutter version 1.22.0-2.0.pre.59 at /Users/berkbirkan/flutter
+    • Framework revision be7c7faee6 (3 months ago), 2020-08-24 22:31:02 -0400
+    • Engine revision 8107b36c7b
+    • Dart version 2.10.0 (build 2.10.0-56.0.dev)
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 30.0.2)
+    • Android SDK at /Users/berkbirkan/Library/Android/sdk
+    • Platform android-30, build-tools 30.0.2
+    • Java binary at: /Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/bin/java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b3-6222593)
+    • All Android licenses accepted.
+
+[✓] Xcode - develop for iOS and macOS (Xcode 11.5)
+    • Xcode at /Applications/Xcode.app/Contents/Developer
+    • Xcode 11.5, Build version 11E608c
+    • CocoaPods version 1.9.3
+
+[✓] Android Studio (version 4.0)
+    • Android Studio at /Applications/Android Studio.app/Contents
+    • Flutter plugin version 48.1.2
+    • Dart plugin version 193.7547
+    • Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b3-6222593)
+
+[✓] Connected device (1 available)
+    • sdk gphone x86 64 (mobile) • emulator-5554 • android-x64 • Android 11 (API 30) (emulator)
+    ! Error: berk is not connected. Xcode will continue when berk is connected. (code -13)
+
+• No issues found!
+```
