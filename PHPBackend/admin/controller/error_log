@@ -1,0 +1,29 @@
+[05-Nov-2020 09:38:53 Europe/Minsk] PHP Warning:  password_hash() expects parameter 2 to be integer, string given in /home/sosya104/public_html/boostmobile/admin/controller/LoginController.php on line 10
+[05-Nov-2020 09:39:31 Europe/Minsk] PHP Warning:  password_hash() expects parameter 2 to be integer, string given in /home/sosya104/public_html/boostmobile/admin/controller/LoginController.php on line 10
+[05-Nov-2020 09:39:37 Europe/Minsk] PHP Warning:  password_hash() expects parameter 2 to be integer, string given in /home/sosya104/public_html/boostmobile/admin/controller/LoginController.php on line 10
+[06-Nov-2020 15:08:34 Europe/Minsk] PHP Parse error:  syntax error, unexpected ']', expecting ',' or ')' in /home/sosya104/public_html/boostmobile/admin/controller/UserPageController.php on line 107
+[06-Nov-2020 15:08:57 Europe/Minsk] PHP Parse error:  syntax error, unexpected ']', expecting ',' or ')' in /home/sosya104/public_html/boostmobile/admin/controller/UserPageController.php on line 107
+[10-Nov-2020 09:14:07 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on boolean in /home/ciltbakimlarim/public_html/boostmobile/admin/controller/SocialMediaController.php:84
+Stack trace:
+#0 {main}
+  thrown in /home/ciltbakimlarim/public_html/boostmobile/admin/controller/SocialMediaController.php on line 84
+[10-Nov-2020 09:14:22 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on boolean in /home/ciltbakimlarim/public_html/boostmobile/admin/controller/SocialMediaController.php:84
+Stack trace:
+#0 {main}
+  thrown in /home/ciltbakimlarim/public_html/boostmobile/admin/controller/SocialMediaController.php on line 84
+[10-Nov-2020 09:15:35 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on boolean in /home/ciltbakimlarim/public_html/boostmobile/admin/controller/SocialMediaController.php:84
+Stack trace:
+#0 {main}
+  thrown in /home/ciltbakimlarim/public_html/boostmobile/admin/controller/SocialMediaController.php on line 84
+[10-Nov-2020 09:18:27 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on boolean in /home/ciltbakimlarim/public_html/boostmobile/admin/controller/SocialMediaController.php:84
+Stack trace:
+#0 {main}
+  thrown in /home/ciltbakimlarim/public_html/boostmobile/admin/controller/SocialMediaController.php on line 84
+[10-Nov-2020 09:21:07 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on boolean in /home/ciltbakimlarim/public_html/boostmobile/admin/controller/SocialMediaController.php:85
+Stack trace:
+#0 {main}
+  thrown in /home/ciltbakimlarim/public_html/boostmobile/admin/controller/SocialMediaController.php on line 85
+[10-Nov-2020 09:23:43 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on boolean in /home/ciltbakimlarim/public_html/boostmobile/admin/controller/SocialMediaController.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/ciltbakimlarim/public_html/boostmobile/admin/controller/SocialMediaController.php on line 83

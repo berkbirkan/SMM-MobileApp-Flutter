@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<div id="message"></div>
+<script src="https://js.stripe.com/v3/"></script>
+<script>
+window.onload = function(){
+	[key, value] = window.location.search.substr(1).split('=');
+
+	if(key == 'session_id'){
+		var stripe = Stripe('pk_live_ErdU1cJTV4Q6tb0On7a6NFRq009DF1RQ35');
+
+		stripe.redirectToCheckout({
+			sessionId: value
+		}).then(function(result){
+			alert('An error occured during the payment process.');
+		});
+	}else{
+		var el = document.getElementById('message');
+		if(value == 'success'){
+			el.innerHTML = 'Payment was successful';
+		}else{
+			el.innerHTML = 'Payment failed';
+		}
+	}
+};
+</script>
+</body>
+</html>

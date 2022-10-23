@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "956288154347",
+    "firebase_url": "https://boost-f2e08.firebaseio.com",
+    "project_id": "boost-f2e08",
+    "storage_bucket": "boost-f2e08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956288154347:android:bf800ca5c45de46359dcae",
+        "android_client_info": {
+          "package_name": "com.birkanlabs.boostersmm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956288154347-u065vcv8vpfmplctc0mv0249hlajfrtc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM5UT_sEw0gJPDXNunxTlp3HQ1l4snuEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "956288154347-u065vcv8vpfmplctc0mv0249hlajfrtc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
